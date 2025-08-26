@@ -19,7 +19,7 @@ namespace Assighment_Demo_ADV_C_02
             #region Non - Generic Collections - ArrayList
 
             //ArrayList arrayList = new ArrayList();
-            
+
             //Console.WriteLine($"{arrayList.Capacity} , {arrayList.Count}");
 
 
@@ -28,7 +28,7 @@ namespace Assighment_Demo_ADV_C_02
             //Add new Element using Add() , Adding At End Of The Araylist
 
             //Console.WriteLine($"{arrayList.Capacity} , {arrayList.Count}");
-           
+
             //arrayList.AddRange(new int[] { 2, 3, 4 });
             //Console.WriteLine($"{arrayList.Capacity} , {arrayList.Count}");// 4 ,4
 
@@ -114,6 +114,70 @@ namespace Assighment_Demo_ADV_C_02
             //arrayList.Add(4);
 
             //Console.WriteLine(SumArrayList(arrayList));
+            #endregion
+
+            #region Generic Collections - LinkedList
+
+            //LinkedList<int> linkedList = new LinkedList<int>();
+            //LinkedListNode<int> FirstNode =  linkedList.AddFirst(10);
+
+            //LinkedListNode<int> SecoundNode = linkedList.AddFirst(20);
+
+            //LinkedListNode<int> Node = new LinkedListNode<int>(30);
+            //linkedList.AddFirst(Node);
+
+            //linkedList.AddBefore(Node, 100);
+            //foreach(int i in linkedList) // 30 , 20 , 10
+            //    Console.WriteLine(i);
+
+            //Console.WriteLine(linkedList.Count());
+            //LinkedListNode<int> FNode =  linkedList.First;
+            //LinkedListNode<int> LNode =  linkedList.Last;
+
+            //Console.WriteLine(FNode.Value);
+            //Console.WriteLine(LNode.ValueRef);
+            #endregion
+
+            #region Stack
+
+            //Stack<int> stack = new Stack<int>();
+            //Console.WriteLine($"{stack.Capacity} , {stack.Count}");
+            //stack.Push(1);
+            //stack.Push(2);
+            //stack.Push(3);
+            //stack.Push(4);
+
+            //Console.WriteLine($"{stack.Capacity} , {stack.Count}");
+            //stack.Push(5);
+            //Console.WriteLine($"{stack.Capacity} , {stack.Count}");
+
+            //foreach(int i in stack)
+            //    Console.WriteLine(i);
+
+            //Console.WriteLine("/////////////////");
+            //int Top = stack.Peek();
+            //Console.WriteLine(Top);
+            //Console.WriteLine("/////////////////");
+
+            //foreach (int i in stack)
+            //    Console.WriteLine(i);
+
+            #endregion
+
+            #region Queue
+            //Queue<int> queue = new Queue<int>();
+            //Console.WriteLine($"{queue.Capacity} , {queue.Count}");
+
+            //queue.Enqueue(1);
+            //queue.Enqueue(2);
+            //queue.Enqueue(3);
+            //queue.Enqueue(4);
+
+            //Console.WriteLine($"{queue.Capacity} , {queue.Count}");
+
+
+            //foreach(int i in queue)
+            //    Console.WriteLine(i);
             #endregion
 
         }
