@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36221.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assighment&Demo_ADV_C#02", "Assighment&Demo_ADV_C#02\Assighment&Demo_ADV_C#02.csproj", "{19C2109A-BD86-422F-A203-3E29AD0B2EDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assighment_ADV-C#02", "Assighment_ADV-C#02\Assighment_ADV-C#02.csproj", "{094F511A-5ECD-49CC-B84E-04907344702B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19C2109A-BD86-422F-A203-3E29AD0B2EDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19C2109A-BD86-422F-A203-3E29AD0B2EDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19C2109A-BD86-422F-A203-3E29AD0B2EDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19C2109A-BD86-422F-A203-3E29AD0B2EDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{094F511A-5ECD-49CC-B84E-04907344702B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{094F511A-5ECD-49CC-B84E-04907344702B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{094F511A-5ECD-49CC-B84E-04907344702B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{094F511A-5ECD-49CC-B84E-04907344702B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FBE5EE14-7DB1-41BE-A25E-560E6B26DB0D}
+	EndGlobalSection
+EndGlobal
